@@ -8,7 +8,7 @@ const Tabs = ({items}) => {
   return (
     <div>
         <ul>
-            {items.map((element,index) =>(
+            {items.map((element,index) => (
                     <li key="index" onClick={()=>{setActive(index)}}>
                     {element.title}
                 </li>
